@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: StockSellableService
+server:
+  port: 8095
+mongoGetUrl: http://localhost:8092/rest
+mongoPatchUrl: http://localhost:8092/rest/UpdateRequest
+mongoNodeGetUrl: http://localhost:8092/rest/Node
